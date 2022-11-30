@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Head"/>
+        <xs:element ref="Gifts"/>
+        <xs:element ref="Footer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Head"> 
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Store_Name"/>
+        <xs:element ref="Logo"/>
+        <xs:element ref="Address"/>
+        <xs:element ref="Telephone_Number"/>
+        <xs:element ref="Website_Address"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Store_Name" type="xs:string"/>
+  <xs:element name="Logo">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Address" type="xs:string"/>
+  <xs:element name="Telephone_Number" type="xs:NMTOKEN"/>
+  <xs:element name="Website_Address" type="xs:NCName"/>
+  <xs:element name="Gifts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="GiftCard"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiftCard">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Gift"/>
+        <xs:element ref="Name"/>
+        <xs:element minOccurs="0" ref="Distributor"/>
+        <xs:element ref="NoOfUsers"/>
+        <xs:element ref="type"/>
+        <xs:element ref="Valid_Until "/>
+        <xs:element ref="Personalized"/>
+        <xs:element ref="Sold"/>
+        <xs:element minOccurs="0" ref="Website"/>
+      </xs:sequence>
+      <xs:attribute name="Refundable" use="required" type="xs:NCName"/>
+      <xs:attribute name="Card_id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Gift">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Distributor" type="xs:string"/>
+  <xs:element name="Distributor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="Valid" use="required" type="xs:NCName"/>
+      <xs:attribute name="cost" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NoOfUsers" type="xs:integer"/>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="Personalized" type="xs:integer"/>
+  <xs:element name="Valid_Until" type="xs:integer"/>
+  <xs:element name="Sold" type="xs:string"/>
+  <xs:element name="Website" type="xs:anyURI"/>
+  <xs:element name="Footer" type="xs:string"/>
+</xs:schema>

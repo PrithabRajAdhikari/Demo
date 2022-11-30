@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE Store SYSTEM "catalog_20048966.dtd">
+<?xml-stylesheet href="catalog_20048966.css" type="text/css"?>
+<Store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="./catalog_20048966.xsd">
+    <Head>
+        <Store_Name>Gifts 4ever </Store_Name>
+        <Logo id="Img"/>
+        <Address>London,United Kingdom</Address>
+        <Telephone_Number>+447911123456</Telephone_Number>
+        <Website_Address>www.gifts4ever.com</Website_Address>
+    </Head>
+     
+    <Gifts>
+        <GiftCard Refundable="yes" Card_id="Card_1"> 
+            <Gift id="Gift_1" /> 
+            <Name>Visa Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">Visa.Inc</Distributor>
+            <NoOfUsers>12,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>2,400,145</Sold>
+
+        </GiftCard>
+        
+        <GiftCard Refundable="yes" Card_id="Card_2"> 
+            <Gift id="Gift_2" /> 
+            <Name>Amazon Gift Card</Name>
+            <Distributor Valid="yes"  cost="$10">Amazon.Inc</Distributor>
+            <NoOfUsers>100,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2024</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>3,455,022</Sold>
+            <Website>https://www.amazon.com/</Website>
+
+        </GiftCard>
+
+
+        <GiftCard Refundable="yes" Card_id="Card_3"> 
+            <Gift id="Gift_3" /> 
+            <Name>American Express Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">AE.Inc</Distributor>
+            <NoOfUsers>50,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>1,000,000</Sold>
+            
+        </GiftCard>
+                
+
+            <GiftCard Refundable="yes" Card_id="Card_4"> 
+            <Gift id="Gift_4" /> 
+            <Name>iTunes Gift Card</Name>
+            <Distributor Valid="yes"  cost="$25">iTunes.Inc</Distributor>
+            <NoOfUsers>15,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2025</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>900,000</Sold>
+            <Website>https://www.iTunes.com/</Website>
+
+        </GiftCard>
+
+
+            <GiftCard Refundable="yes" Card_id="Card_5"> 
+            <Gift id="Gift_5" /> 
+            <Name>Walmart Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">Walmart.Inc</Distributor>
+            <NoOfUsers>120,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2022</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>3,000,000</Sold>
+            <Website>https://www.Walmart.com/</Website>
+
+        </GiftCard>
+
+
+            <GiftCard Refundable="yes" Card_id="Card_6"> 
+            <Gift id="Gift_6" /> 
+            <Name>Target Gift Card</Name>
+            <Distributor Valid="yes"  cost="$10">Target.Inc</Distributor>
+            <NoOfUsers>130,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>2,555,432</Sold>
+            <Website>https://www.Target.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_7"> 
+            <Gift id="Gift_7" /> 
+            <Name>eBay Gift Card</Name>
+            <Distributor Valid="yes"  cost="$100">eBay.Inc</Distributor>
+            <NoOfUsers>10,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2022</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>200,000</Sold>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_8"> 
+            <Gift id="Gift_8" /> 
+            <Name>Netflix Gift Card</Name>
+            <Distributor Valid="yes"  cost="$5">Visa.Inc</Distributor>
+            <NoOfUsers>1,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>24,000</Sold>
+            <Website>https://www.Netflix.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_9"> 
+            <Gift id="Gift_9" /> 
+            <Name>Google Play Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">Google.Inc</Distributor>
+            <NoOfUsers>200,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>4,000,145</Sold>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_10"> 
+            <Gift id="Gift_10" /> 
+            <Name>Ikea Gift Card</Name>
+            <Distributor Valid="yes"  cost="$500">Visa.Inc</Distributor>
+            <NoOfUsers>2,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2024</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>40,000</Sold>
+            <Website>https://www.Ikea.com/</Website>
+
+        </GiftCard>
+
+
+            <GiftCard Refundable="yes" Card_id="Card_11"> 
+            <Gift id="Gift_11" /> 
+            <Name>Gamestop Gift Card</Name>
+            <Distributor Valid="yes"  cost="$30">Gamestop.Inc</Distributor>
+            <NoOfUsers>35,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>400,145</Sold>
+            <Website>https://www.Gamestop.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_12"> 
+            <Gift id="Gift_12" /> 
+            <Name>Apple Store Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">Apple.Inc</Distributor>
+            <NoOfUsers>100,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2025</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>4,000,000</Sold>
+            <Website>https://www.Apple.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_13"> 
+            <Gift id="Gift_13" /> 
+            <Name>Pizza Hut Gift Card</Name>
+            <Distributor Valid="yes"  cost="$10">HUT.Inc</Distributor>
+            <NoOfUsers>5,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>60,145</Sold>
+
+        </GiftCard>
+
+           <GiftCard Refundable="yes" Card_id="Card_14"> 
+            <Gift id="Gift_14" /> 
+            <Name>MasterCard Gift Card</Name>
+            <Distributor Valid="yes"  cost="$40">MasterCard.Inc</Distributor>
+            <NoOfUsers>60,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2022</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>900,000</Sold>
+            <Website>https://www.MasterCard.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_15"> 
+            <Gift id="Gift_15" /> 
+            <Name>Disney Gift Card</Name>
+            <Distributor Valid="yes"  cost="$25">Visa.Inc</Distributor>
+            <NoOfUsers>125,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>4,000,000</Sold>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_16"> 
+            <Gift id="Gift_16" /> 
+            <Name>Best Buy Gift Card</Name>
+            <Distributor Valid="yes"  cost="$5">Visa.Inc</Distributor>
+            <NoOfUsers>1,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>36,000</Sold>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_17"> 
+            <Gift id="Gift_17" /> 
+            <Name>Victoria's Secret Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">VS.Inc</Distributor>
+            <NoOfUsers>25,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2024</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>150,000</Sold>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_18"> 
+            <Gift id="Gift_18" /> 
+            <Name>Cinemark Gift Card</Name>
+            <Distributor Valid="yes"  cost="$30">Cinemark.Inc</Distributor>
+            <NoOfUsers>55,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>300,000</Sold>
+            <Website>https://www.Cinemark.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_19"> 
+            <Gift id="Gift_19" /> 
+            <Name>Toys R Us Gift Card</Name>
+            <Distributor Valid="yes"  cost="$20">Toys.Inc</Distributor>
+            <NoOfUsers>250,000</NoOfUsers>
+            <type>Digital</type>
+            <Valid_Until>2023</Valid_Until>    
+            <Personalized>Pin Code Required</Personalized>     
+            <Sold>2,000,000</Sold>
+            <Website>https://www.Toys.com/</Website>
+
+        </GiftCard>
+
+            <GiftCard Refundable="yes" Card_id="Card_20"> 
+            <Gift id="Gift_20" /> 
+            <Name>Taco Bell Gift Card</Name>
+            <Distributor Valid="yes"  cost="$35">Visa.Inc</Distributor>
+            <NoOfUsers>30,000</NoOfUsers>
+            <type>Physical</type>
+            <Valid_Until>2025</Valid_Until>    
+            <Personalized>Accessible</Personalized>     
+            <Sold>400,000</Sold>
+
+        </GiftCard>
+    </Gifts>
+    <Footer>Gifts 4ever Pvt. Ltd. | Copyright  &#xA9; 2022</Footer>
+</Store>

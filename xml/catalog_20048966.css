@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend+Zetta&display=swap');
+
+@font-face {
+	font-family: 'Don Graffiti';
+	src: url(./font/DonGraffiti.otf);
+}
+
+Store {
+	background: linear-gradient(rgba(253, 107, 175, 0.525),rgba(107, 253, 241, 0.525)) , url(./Images/scg-canvas-background-animation-6.jpg) no-repeat fixed center;
+	background-size: cover;
+	font-family: 'Lexend Deca',Helvetica, Sans-serif;
+	filter: contrast(90%);
+}
+
+
+Store_Name,
+Address,
+Telephone_Number,
+Website_Address {
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	color: black;
+	padding: 5px;
+	line-height: 0.8;
+	font-weight: bold;
+}
+
+Website_Address {
+    margin: 0 auto; 
+    width:10%;	
+	border-bottom: 5px solid rgb(36, 31, 36);	
+}
+
+Store_Name {
+	display: flex;
+	justify-content: center;
+	font-family: 'Don Graffiti', 'Lexend Deca', Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(10, 10, 34);;
+	font-size: 50px;
+	padding: 30px;
+	font-weight: bold;
+}
+
+#Img {
+	background-image: url(Images/logo.jpg);
+	/*logo image*/
+	width: 200px;
+	height: 150px;
+	background-size: 200px;
+	position: absolute;
+	top: 1px;
+}
+
+Gifts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+GiftCard {
+	display: block;
+	background: rgba(0, 0, 0, 0.35);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	transform: rotate(-0.1deg);
+	font-size: 30px;
+	margin: 20px;
+	width: 550px;
+	height: 1000px;
+	padding: 20px;
+	color: #f4f4f4;
+	float: left;
+}
+
+Gift {
+	background-size: 300px;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 20px;
+
+}
+
+Name,
+Distributor,
+NoOfUsers,
+type,
+Valid_Until,
+Personalized,
+Sold,
+Website {
+	display: block;
+	margin-left: 20%;
+	padding: 0 20px 0 20px;
+	font-weight: bold;
+	padding-left: 1%;
+	color: #fff;
+}
+
+
+Name {
+	font-family: 'Lexand',Verdana, Geneva, Tahoma, sans-serif;
+	color: #101820FF;
+	font-size: 40px;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 350px;
+    color: rgb(0, 255, 26);
+    margin-left: 25%;
+
+}
+Name::before,
+Distributor::before,
+NoOfUsers::before,
+type::before,
+Valid_Until::before,
+Personalized::before,
+Sold::before,
+Website::before
+{
+	font-weight: bold;
+	color: #101820FF;
+	font-family: 'Courier New', Courier, monospace;
+	display: list-item;
+	list-style-type: disc;
+}
+
+
+Artist:hover,
+Distributor:hover,
+NoOfUsers:hover,
+type:hover,
+Valid_Until:hover,
+Personalized:hover,
+Sold:hover,
+Website:hover{
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+/*list-item is used in order to create a list */
+
+Name::before {
+	content: "Gift Card Name: ";
+}
+
+Distributor::before {
+	content: "Distributed By: ";
+}
+
+NoOfUsers::before {
+	content: "Current Users: ";
+}
+
+type::before {
+	content: "Type: ";
+}
+
+Valid_Until::before {
+	content: "Valid Until: ";
+}
+
+Personalized::before {
+	content: "Accessibility: ";
+}
+
+Sold::before {
+	content: "Total Sold: ";
+}
+
+Website::before {
+	content: "Website: "
+}
+#Gift_1 {
+	background-image: url(./Images/card1_.jpg);
+}
+
+#Gift_2 {
+	background-image: url(./Images/card2.png);
+}
+
+#Gift_3 {
+	background-image: url(./Images/card3.png);
+}
+
+#Gift_4 {
+	background-image: url(./Images/card4.jpg);
+}
+
+#Gift_5 {
+	background-image: url(./Images/card5.png);
+}
+
+#Gift_6 {
+	background-image: url(./Images/card6.jpg);
+}
+
+#Gift_7 {
+	background-image: url(./Images/card7.png);
+}
+
+#Gift_8 {
+	background-image: url(./Images/card8.png);
+}
+
+#Gift_9 {
+	background-image: url(./Images/card9.jpg);
+}
+
+#Gift_10 {
+	background-image: url(./Images/card10.png);
+}
+
+#Gift_11 {
+	background-image: url(./Images/card11.jpg);
+}
+
+#Gift_12 {
+	background-image: url(./Images/card12.jpg);
+}
+
+#Gift_13 {
+	background-image: url(./Images/card13.png);
+}
+
+#Gift_14 {
+	background-image: url(./Images/card14.jpeg);
+}
+
+#Gift_15 {
+	background-image: url(./Images/disney.jpg);
+}
+
+#Gift_16 {
+	background-image: url(./Images/card16.jpg);
+}
+
+#Gift_17 {
+	background-image: url(./Images/card17.png);
+}
+
+#Gift_18 {
+	background-image: url(./Images/card18.jpeg);
+}
+
+#Gift_19 {
+	background-image: url(./Images/card19.png);
+}
+
+#Gift_20 {
+	background-image: url(./Images/card20.jpg);
+}
+
+#Gift_1:hover,#Gift_2:hover,#Gift_3:hover,#Gift_4:hover,#Gift_5:hover,#Gift_6:hover,#Gift_7:hover,
+#Gift_8:hover,#Gift_9:hover,#Gift_10:hover,#Gift_11:hover,#Gift_12:hover,#Gift_13:hover,#Gift_14:hover,
+#Gift_15:hover,#Gift_16:hover,#Gift_17:hover,#Gift_18:hover,#Gift_19:hover,#Gift_20:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+Footer{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: black;
+	color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+}

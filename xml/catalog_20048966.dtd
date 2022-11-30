@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Store (Head,Gifts,Footer)>
+<!ELEMENT Head (Store_Name,Logo,Address,Telephone_Number,
+                Website_Address)>
+<!ELEMENT Gifts (GiftCard)+>
+<!ELEMENT Store_Name (#PCDATA)>
+<!ELEMENT Logo EMPTY>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Telephone_Number (#PCDATA)>
+<!ELEMENT Website_Address (#PCDATA)>
+<!ELEMENT GiftCard (Gift,Name,NoOfUsers+,type,Valid_Until,Personalized,
+                Sold+,Website?)>
+<!ELEMENT Gift EMPTY>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Distributor (#PCDATA)>
+<!ELEMENT NoOfUsers (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT Valid_Until (#PCDATA)>
+<!ELEMENT Personalized (#PCDATA)>
+<!ELEMENT Sold (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT Footer (#PCDATA)>
+
+<!ATTLIST Store xmlns:xsi CDATA #REQUIRED
+xsi:noNamespaceSchemaLocation CDATA #REQUIRED
+>
+<!ATTLIST GiftCard Refundable (yes|no) #REQUIRED>
+<!ATTLIST GiftCard Card_id ID #REQUIRED>
+<!ATTLIST Gift id ID #REQUIRED>
+<!ATTLIST Logo id CDATA #REQUIRED>
+<!ATTLIST Distributor Valid (yes|no) #REQUIRED
+  cost CDATA #IMPLIED>
